@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brows4epets</title>
+        <link rel="shortcut icon" href="assets/logo-header.png"
+            type="image/x-icon">
+
+
+
+        <!-- google fonts link -->
+         
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+            rel="stylesheet">
+
+        <!-- font awesome link -->
+       
+         <script src="https://kit.fontawesome.com/9da2c2c9a7.js" crossorigin="anonymous"></script>
+
+        <!-- daisy Ui -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+            rel="stylesheet" type="text/css" />
+
+        <!-- tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color': 'rgb(255, 220, 38)',
+                'nav-bg': 'rgb(255, 249, 244)',
+                'card-bg': 'rgb(249, 223, 138)',
+                'card-color-1': 'rgb(248, 204, 251)',
+                'card-color-2': 'rgb(172, 210, 253)',
+                'card-color-3': 'rgb(255, 249, 244)',
+                'card-color-4': 'rgb(249, 223, 138)',
+              },
+              fontFamily: {
+                'main-font': 'Sora',
+                'sub-font': 'ADLaM Display',
+              }
+            }
+          }
+        }
+    </script>
+    </head>
+    <body>
+        <!-- header section start -->
+
+        <header>
+            <!-- navbar section start -->
+            <nav class="bg-pink-50 mb-16">
+                <div class="navbar bg-base-100 w-11/12 mx-auto bg-pink-50">
+                    <div class="navbar-start flex items-center gap-2">
+                        <img src="assets/logo-header.png" alt class="w-10">
+                        <h1
+                            class="text-2xl font-main-font hidden md:block">Browse<span
+                                class="text-primary-color">4</span>Pets</h1>
+                    </div>
+
+                    <div class="navbar-center space-x-8 hidden md:block">
+                        <a class="text-lg cursor-pointer font-main-font">Find a
+                            pet</a>
+                        <a
+                            class="text-lg cursor-pointer font-main-font">Breeds</a>
+                        <a class="text-lg cursor-pointer font-main-font">Contact
+                            us</a>
+                    </div>
+                    <div class="navbar-end items-center">
+                        <div class="flex items-center justify-between gap-3">
+                            <div
+                                class="items-center space-x-3 hidden lg:inline-block">
+                                <i class="fa-regular fa-bell" class="w-5"></i>
+                                <i class="fa-solid fa-magnifying-glass"
+                                    class="w-5"></i>
+                            </div>
+
+                            <div class="hidden md:block items-center space-x-3">
+                                <button
+                                    class="font-main-font text-bold py-2 px-7 border-2 rounded-lg border-primary-color">Login</button>
+                                <button
+                                    class="font-main-font text-bold py-2 px-7 rounded-lg bg-primary-color">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="md:hidden">
+                            <div class="dropdown">
+                                <div tabindex="0" role="button"
+                                    class="btn btn-ghost btn-circle">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor">
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M4 6h16M4 12h16M4 18h7" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bg-gray-700 md:hidden w-full h-[1px]"></div>
+            </nav>
+</header>
+           
+
+    </body>
+</html>
